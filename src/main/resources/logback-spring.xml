@@ -12,10 +12,10 @@
 
         <logger name="com.hyerin.todolist" level="DEBUG" />
 
-        <root>
-            <level>WARN</level>
+        <root level="WARN">
             <appender-ref ref="console" />
         </root>
+
     </springProfile>
 
 </configuration>
